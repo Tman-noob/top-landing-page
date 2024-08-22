@@ -43,7 +43,8 @@ a {
 
 .hero {
     height: 200px;
-    padding: 20px;
+    padding: 40px;
+    padding-bottom: 70px;
     margin: 0;
     background-color: #1f2937;
     color: white;
