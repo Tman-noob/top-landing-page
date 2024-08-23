@@ -1,8 +1,11 @@
-/* * {
-    outline: 1px solid blue;
-}*/
+* {
+    /* outline: 1px solid blue; */
+    box-sizing: border-box;
+}
 
 body {
+    margin-left:auto;
+    margin-right:auto;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     margin: 0;
@@ -42,7 +45,7 @@ a {
 }
 
 .hero {
-    height: 300px;
+    height: 400px;
     padding: 50px;
     padding-bottom: 70px;
     margin: 0;
@@ -50,6 +53,7 @@ a {
     color: white;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-left {
@@ -69,9 +73,13 @@ a {
 }
 
 .hero h1 {
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
     margin-bottom: -10px;
+}
+
+.hero p {
+    font-size: 18px;
 }
 
 .hero-img {
@@ -79,6 +87,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .hero img {
@@ -102,17 +111,19 @@ a {
 }
 
 .info {
-    padding: 20px;
+    height: 500px;
     text-align: center;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .info h2 {
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .container {
-    height: 150px;
+    height: 300px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -133,6 +144,94 @@ a {
     color: rgb(87, 85, 85);
 }
 
-.footer {
+.quote {
+    height: 500px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding-left: 20rem;
+    padding-right: 20rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote h3 {
+    width: 40rem;
+    height: 15rem;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.quote p {
+    margin-top: 0;
+    height: 5rem;
+    width: 30rem;
+    font-size: 26px;
+    font-weight: 800;
+    margin-left: 30rem;
+}
+
+.cta {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    height: 7rem;
+    width: 50rem;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cta-left {
+    padding: 0;
+    margin: 0;
+}
+
+.cta h3{
+    font-size: 26px;
+    margin-bottom: -10px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.cta button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 0;
+    align-self: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px 5px;
+    outline: 1px solid white;
+}
+
+.cta button:hover {
+    background-color: hwb(217 11% 23%);
+    cursor: pointer;
+}
+
+.footer {
+    height: 60px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    color: white;
 }
