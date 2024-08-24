@@ -113,12 +113,11 @@ a {
 }
 
 .info {
-    height: 500px;
+    height: 30rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1;
 }
 
 .info h2 {
@@ -183,7 +182,7 @@ a {
 }
 
 .cta {
-    height: 400px;
+    height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
