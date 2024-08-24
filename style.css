@@ -54,6 +54,8 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 40px;
+    flex: 1;
 }
 
 .hero-left {
@@ -91,7 +93,7 @@ a {
 }
 
 .hero img {
-    width: 400px;
+    width: 450px;
 }
 
 .hero button {
@@ -116,6 +118,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 .info h2 {
@@ -123,18 +126,19 @@ a {
 }
 
 .container {
+    flex: 1;
     height: 300px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 100px;
     padding: 5px;
 }
 
 .container img {
     outline: 3px solid #3882f6;
-    width: 115px;
-    height: 115px;
+    width: 200px;
+    height: 200px;
     border-radius: 5px 5px;
     margin: 5px;
 }
@@ -154,9 +158,11 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .quote h3 {
+    flex: 1;
     width: 40rem;
     height: 15rem;
     font-size: 36px;
